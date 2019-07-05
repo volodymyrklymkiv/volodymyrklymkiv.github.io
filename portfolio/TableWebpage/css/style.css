@@ -1,0 +1,15 @@
+table {
+    background-color: #2b3e50;
+    border-collapse: collapse;
+}
+td {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+    text-align: right;
+    vertical-align: bottom;
+}
+.none {
+    display: none;
+}

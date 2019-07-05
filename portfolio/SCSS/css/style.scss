@@ -1,0 +1,83 @@
+$size-text: 30px;
+$weight: 100; 
+$weight-bold :bold;
+
+@mixin image {
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+}
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+@mixin flex-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    background-color: #ffffff;
+}
+.header-text {
+    font-size: $size-text;
+    font-weight: $weight;
+}
+.header, .price, h2, .lorem {
+    @include flex-center;
+} 
+.main-content, .footer-text, .footer-button {
+    @include flex-space-around;
+}
+.header {
+    margin-top: 100px;
+}
+.main-content {
+    padding: 0 200px;
+}
+
+.price {
+    font-size: 24px;
+}
+.left-content, .center-content, .right-content {
+    width: 230px;
+    height: 280px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.3);
+}
+h2 {
+    font-size: 16px;
+    margin-top: 30px;
+    
+}
+img {
+    @include image;
+}
+.lorem {
+    font-size: 14px;
+    color: #c6ccd9;
+}
+.dollar, .number {
+    font-weight: $weight-bold;
+}
+.dollar {
+    font-size: 30px;
+}
+.number {
+    font-size: 50px;
+}
+.mon {
+    color:#b3bccd;
+}
+.footer-text {
+    text-align: center;
+    padding: 50px 350px 0;
+    color: #a6b0c5;
+}
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+

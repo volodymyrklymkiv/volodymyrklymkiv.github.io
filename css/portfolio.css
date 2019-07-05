@@ -1,0 +1,41 @@
+* {
+    font-family: 'Cormorant Garamond', serif;
+}
+nav, .main, footer {
+    background: #000e32;
+}
+nav a {
+    color: white;
+    font-size: 30px;
+}
+header a:hover, footer a:hover {
+    text-decoration: none;
+    opacity: 0.4;
+    color: white;
+    -webkit-transition: all 1s ease;;
+    -moz-transition: all 1s ease;;
+    -o-transition: all 1s ease;;
+    transition: all 1s ease;
+}
+h1 {
+    color: white;
+}
+.main {
+    height: 100px;
+}
+.links p {
+    font-size: 30px;
+}
+.links a {
+    color: black;
+}
+.links, footer {
+    margin-top: 150px;
+}
+footer {
+    
+}
+footer a, .mail {
+    color: white;
+    font-size: 18px;
+}

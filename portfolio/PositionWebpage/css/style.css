@@ -1,0 +1,43 @@
+span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.left-section span {
+    display: block;
+    padding-top: 250px;
+    padding-right: 20px;
+}
+.right-section span {
+    display: block;
+    padding-top: 150px;
+    padding-right: 20px;
+}
+.first, .second, .third, .fourth {
+    width: 300px;
+    height: 300px;
+    border:1px solid white;
+    background-color: #2b3e50;
+    text-align: right;
+}
+.right-top-section div, .right-center-section div, .right-bottom-section div {
+    width: 200px;
+    height: 200px;
+    border:1px solid white;
+    background-color: #2b3e50;
+     text-align: right;
+}
+body {
+    width: 1212px;
+    height: 600px;
+}
+.left-section, .right-section {
+    width: 606px;
+    height: 600px;
+}
+.left-section, .right-top-first, .right-top-second, .right-center-first, .right-center-second, .right-bottom-first, .right-bottom-second, .first, .third{
+    float: left;
+}
+.right-section, .right-top-third, .right-center-third, .right-bottom-third, .second, .fourth {
+    float: right;
+}

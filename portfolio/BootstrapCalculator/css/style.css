@@ -1,0 +1,80 @@
+body {
+    background-color: #e6e6e6;
+}
+div {
+    border: 1px solid #e6e6e6;
+    border-top:none;
+}
+.btn-menu {
+    width: 50px;
+    height: 40px;
+}
+.btn-menu p {
+    font-size: 40px;
+    font-weight: 100;
+}
+.btn-menu:hover, .memory-calc div:hover, .calc-symb div:hover {
+    background-color: #c2c2c2;
+}
+.text-standart {
+    font-size: 20px;
+    font-weight: 400;
+}
+.zero {
+    min-height: 200px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.memory-calc div {
+    width: 100px;
+    height: 50px;
+}
+.memory-calc p{
+    margin: 0;
+    font-size: 12px;
+}
+.mc, .mr, .m-plus, .m-minus, .ms p{
+    font-weight: bold;
+}
+.calc-symb div {
+    width: 20%;
+    min-height: 100px;
+}
+.calc-symb {
+    background-color: #f0f0f0;
+}
+.calc-symb p{
+    margin:0;
+    font-size: 24px;
+}
+.number {
+    background-color: #fafafa;
+}
+.number p{
+    font-weight: 600;
+    font-size: 30px;
+}
+.calc-symb div:last-child:hover {
+      background-color: blue;
+    color: white;
+}
+
+
+@media screen and (max-width: 720px) {
+    .first {
+        display: none !important;
+    }
+    .calc-symb div{
+        width:25%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .right-content {
+        display: none;
+    }
+}
+@media screen and (min-width: 721px) {
+    .top-symb {
+        display: none !important;
+    }
+}

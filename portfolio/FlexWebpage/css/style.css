@@ -1,0 +1,33 @@
+span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+body, .left-top-section, .left-bottom-section {
+    display: flex;
+}
+.first, .second, .third, .fourth {
+    width: 300px;
+    height: 300px;
+    border:1px solid white;
+    background-color: #2b3e50;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.right-top-section div, .right-center-first {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.right-top-section, .right-center-section, .right-bottom-section {
+    display: flex;
+}
+.right-top-section div, .right-center-section div, .right-bottom-section div {
+    width: 200px;
+    height: 200px;
+    border:1px solid white;
+    background-color: #2b3e50;
+}

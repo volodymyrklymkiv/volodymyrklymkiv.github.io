@@ -1,0 +1,46 @@
+.header {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+ul li {
+    list-style-type: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 
+}
+a {
+    color: black;
+}
+.name {
+    padding-right: 40px;
+}
+.bt {
+   width: 200px;
+    height: 50px;
+    color: white;
+    background-color: aqua;
+    border: none;
+}
+.coordination {
+    margin-top: 100px;
+}
+.piroll, span{
+    font-weight: bold;
+}
+.copyright, .email {
+    margin-bottom: 0;
+}
+.footer {
+    background-color: black;
+    color: white;
+}
+.footer a {
+    color: white;
+}
+.footer div {
+    margin-top: 100px;
+}

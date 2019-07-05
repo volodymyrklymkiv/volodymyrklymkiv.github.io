@@ -1,0 +1,60 @@
+body {
+    font-size: 18px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    color: white;
+}
+a {
+    color: white;
+}
+p {
+    margin: 0;
+}
+.header {
+    background: #b1d0b0;
+    min-height: 60px;
+    height: 100%;
+}
+.nav {
+    background: #6abc69;
+    min-height: 40px;
+    height: 100%;
+}
+.main {
+    margin: 0;
+    min-height: 592px;
+    height: 100%;
+}
+.sidebar{
+    background: #67a0da;
+    min-height: 592px;
+    height: 100%;
+}
+.subscribe, .title, .event {
+    margin-top: 150px;
+}
+h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.content {
+    background: #7cabdb;
+    min-height: 592px;
+    height: 100%;
+}
+.aside {
+    background: #67a0da;
+    min-height: 592px;
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footer {
+    background: #b1d0b0;
+    min-height: 40px;
+    height: 100%;
+}

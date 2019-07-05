@@ -1,0 +1,17 @@
+.all {
+    width: 100%;
+    min-height: 600px;
+    background-color: #2b3e50;
+}
+div {
+    border: 1px solid white;
+}
+.main-left, .main-right {
+    min-height: 600px;
+}
+.left-big, .right-big {
+    min-height: 300px;
+}
+.left-small, .center-small, .right-small {
+    min-height: 200px;
+}
