@@ -21,6 +21,9 @@ h1, h5 {
     color: white;
     font-weight: 300;
 }
+.experience a {
+    color: black;
+}
 .cvphoto {
   width: 200px;
     height: 200px;
